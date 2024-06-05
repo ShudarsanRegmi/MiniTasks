@@ -1,0 +1,51 @@
+.features,
+.uifryPremium {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 179.5px);
+  line-height: 48px;
+  text-transform: capitalize;
+}
+.features {
+  top: calc(50% - 40px);
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.16em;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-tomato);
+}
+.groupContainer,
+.uifryPremiumParent {
+  position: absolute;
+  top: calc(50% - 232px);
+  left: calc(50% - 319px);
+  width: 359px;
+  height: 80px;
+}
+.groupContainer {
+  top: calc(50% - 231.75px);
+  left: calc(50% + 23px);
+  width: 638px;
+  height: 464px;
+}
+.groupChild,
+.groupParent {
+  position: absolute;
+  height: 719.5px;
+}
+.groupChild {
+  top: calc(50% - 359.75px);
+  left: calc(50% - 661px);
+  width: 719.5px;
+  object-fit: cover;
+}
+.groupParent {
+  top: calc(50% - 2012.8px);
+  left: calc(50% - 694px);
+  width: 1322px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}

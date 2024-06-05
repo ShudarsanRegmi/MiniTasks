@@ -1,0 +1,176 @@
+:root {
+    --content-left-pad: 20%;
+}
+
+.cons {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "con1 con3"
+      "con2 con3";
+      /* background: yellow;     */
+      margin-top: 150px;
+  }
+  .con {
+    border: 1px solid black; 
+    /* overflow: hidden; */
+  }
+  
+  .con1 { 
+    grid-area: con1;
+    /* background-color: orange; */
+    padding-left: var(--content-left-pad);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+.con1 > h1 {
+    /* font-size: 64 px; */
+    /* line-height: 64px; */
+    font-family:  bold;
+}
+.con1 > p {
+    font-size: 18px;
+    /* line-height: 28px; */
+    text-wrap: wrap;
+    color: rgb(0 0 0 / 50%);
+} 
+  .con2 { 
+    grid-area: con2;
+    position: relative;
+    padding:20px;
+}
+  
+  .con3 { 
+    grid-area: con3;
+    background: #ffffff url('/public/tarr.svg') left center/contain no-repeat;
+    background-size: 650px 650px;
+    /* overflow: scroll;     */
+    }
+.btns {
+    display: flex;
+    /* background-color: rgb(233, 233, 132); */
+    padding: 5px;
+    gap: 50px;
+}
+ .getStarted {
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 8px 23px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ .watchVideo {
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 8px 23px;
+    border: 0;
+    outline: none;  
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+ }
+.mobPcon {
+    background-color: pink;
+    padding: 20px;
+    display: flex; 
+    position: relative;
+    overflow: hidden;
+    
+
+}
+.mobCon {
+    background-color: orange;
+    display: flex;
+    position: relative;
+    /* padding: 20px;    */
+    min-width: 500px;
+    min-height: 500px;
+    overflow: hidden;
+}
+ .mobs {
+    max-width: 80%;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    display: block;
+ }
+ .mob1 {
+    z-index: 3;
+    top: 0;
+    left: 0;    
+ }
+ .mob2 {
+    top: 60px;
+    left: 120px;
+    z-index: 2;
+ }                     
+
+ .mob3 {
+    top: 120px;
+    left: 240px;
+    z-index: 1;
+ }
+
+ .star {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+ }
+
+ .ribbonImg {
+    padding-left: var(--content-left-pad);
+    max-width: 100%;
+    height: auto;
+    
+ }
+
+ .con2Star {
+    /* transform: translate(150px, 100px); */
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+
+ }
+
+ .dhulo {
+    position: absolute;
+    top: -137px;
+    left: 133px;
+    z-index: -3;
+ }
+
+ .dhulo2 {
+    position: absolute;
+    top: -123px;
+    left: 30px;
+    z-index: 0;
+ }
+
+ @media only screen and (max-width: 750px) {
+    body {
+        background-color: orange;
+    }
+    .cons {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "con1"
+        "con3"
+        "con2";
+  
+    }
+    :root {
+      --content-left-pad: 10%;
+  }
+ }

@@ -1,0 +1,45 @@
+.budgetingIntervals {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% - 71.5px);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.star05Icon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 103.5px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.budgetingIntervalsParent {
+  position: absolute;
+  top: calc(50% - 48px);
+  left: calc(50% - 319px);
+  width: 207px;
+  height: 28px;
+}
+.cumEtConvallis,
+.groupParent {
+  position: absolute;
+  left: calc(50% - 319px);
+  width: 638px;
+}
+.cumEtConvallis {
+  top: calc(50% - 8px);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  opacity: 0.5;
+}
+.groupParent {
+  top: calc(50% - 120px);
+  height: 96px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}

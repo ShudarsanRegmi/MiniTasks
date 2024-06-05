@@ -1,0 +1,113 @@
+.groupChild {
+  position: absolute;
+  top: calc(50% + 80.35px);
+  left: calc(50% + 0.2px);
+  border-radius: var(--br-5xs);
+  width: 256px;
+  height: 71px;
+}
+.groupItem {
+  position: absolute;
+  top: calc(50% + 81.45px);
+  left: calc(50% + 16.1px);
+  width: 56.4px;
+  height: 57.1px;
+  object-fit: contain;
+}
+.groupInner {
+  position: absolute;
+  top: calc(50% + 95.35px);
+  left: calc(50% + 79.1px);
+  width: 41.8px;
+  height: 41.8px;
+}
+.groupChild1,
+.rectangleDiv {
+  position: absolute;
+  top: calc(50% + 80.35px);
+  left: calc(50% + 136.6px);
+  background-color: var(--color-black);
+  width: 1.3px;
+  height: 71.2px;
+}
+.groupChild1 {
+  left: calc(50% + 62.1px);
+}
+.rectangleIcon {
+  position: absolute;
+  top: calc(50% - 147.15px);
+  left: calc(50% - 47.9px);
+  border-radius: var(--br-5xs);
+  width: 297.5px;
+  height: 302.6px;
+  object-fit: contain;
+}
+.groupChild2,
+.makeTheBest {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.makeTheBest {
+  top: calc(50% + 69.15px);
+  left: calc(50% + 24.8px);
+  line-height: 18.3px;
+  text-transform: capitalize;
+  font-weight: 600;
+  transform: rotate(-45.7deg);
+}
+.groupChild2 {
+  top: calc(50% + 93.85px);
+  left: calc(50% - 252.65px);
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--color-black);
+  width: 534.3px;
+  height: 71.4px;
+  transform: rotate(-28deg);
+}
+.groupIcon {
+  position: absolute;
+  top: calc(50% - 127.35px);
+  left: calc(50% - 222.55px);
+  width: 440px;
+  height: 257.6px;
+  object-fit: contain;
+}
+.rectangleParent {
+  position: absolute;
+  top: calc(50% - 156.95px);
+  left: calc(50% - 256.2px);
+  width: 505.3px;
+  height: 313.9px;
+}
+.freeTrial,
+.uifryPremium {
+  position: absolute;
+  top: calc(50% - 19.3px);
+  left: calc(50% - 43px);
+  line-height: 18.3px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.freeTrial {
+  top: calc(50% + 0.3px);
+  font-size: var(--font-size-2xs-5);
+  font-weight: 500;
+}
+.uifryPremiumParent,
+.vectorParent {
+  position: absolute;
+  top: calc(50% + 96.65px);
+  left: calc(50% + 153.6px);
+  width: 86px;
+  height: 38.6px;
+}
+.vectorParent {
+  top: calc(50% - 178.85px);
+  left: calc(50% - 227.9px);
+  width: 512.4px;
+  height: 313.9px;
+  text-align: left;
+  font-size: var(--font-size-xs-8);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}

@@ -1,0 +1,63 @@
+.arcuAtDictum,
+.fullyCustomizable {
+  position: absolute;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.arcuAtDictum {
+  top: calc(50% - 34.5px);
+  left: calc(50% - 281px);
+  font-weight: 500;
+  display: inline-block;
+  width: 562px;
+  opacity: 0.5;
+}
+.fullyCustomizable {
+  top: calc(50% - 14px);
+  left: calc(50% - 99.5px);
+  font-weight: 600;
+}
+.fullyCustomizableParent,
+.groupChild {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 162.5px);
+  width: 48px;
+  height: 48px;
+}
+.fullyCustomizableParent {
+  top: calc(50% - 105.5px);
+  left: calc(50% - 281px);
+  width: 325px;
+  font-size: var(--font-size-9xl);
+}
+.arcuAtDictumSapienMollisParent,
+.groupWrapper {
+  position: absolute;
+  top: calc(50% - 105.5px);
+  left: calc(50% - 281px);
+  width: 562px;
+  height: 211px;
+}
+.groupWrapper {
+  top: calc(50% - 105.75px);
+  left: calc(50% + 60px);
+}
+.groupItem,
+.groupParent {
+  position: absolute;
+  top: calc(50% - 359.75px);
+  left: calc(50% - 622px);
+  height: 719.5px;
+}
+.groupItem {
+  width: 719.5px;
+  object-fit: cover;
+}
+.groupParent {
+  width: 1244px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}

@@ -1,0 +1,139 @@
+.whatOurUsers {
+  position: absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 227.5px);
+  line-height: 48px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 455px;
+}
+.testimonial {
+  position: absolute;
+  top: calc(50% - 64px);
+  left: calc(50% - 74.5px);
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.16em;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.whatOurUsersSayAboutUsParent {
+  position: absolute;
+  top: calc(50% - 410.5px);
+  left: calc(50% - 179.5px);
+  width: 455px;
+  height: 128px;
+}
+.arcuAtDictum,
+.theBestFinancial {
+  position: absolute;
+  left: calc(50% - 221px);
+  line-height: 28px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 442px;
+}
+.arcuAtDictum {
+  top: calc(50% - 116px);
+  font-weight: 500;
+  opacity: 0.5;
+}
+.theBestFinancial {
+  top: calc(50% - 196px);
+  font-size: var(--font-size-9xl);
+  font-weight: 600;
+}
+.groupChild {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 96px);
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.groupItem {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 72px);
+  height: 30px;
+}
+.groupIcon,
+.groupInner,
+.groupItem {
+  width: 30px;
+  object-fit: cover;
+}
+.groupInner {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 34px);
+  height: 30px;
+}
+.groupIcon {
+  left: calc(50% + 4px);
+}
+.groupChild1,
+.groupIcon,
+.groupParent1 {
+  position: absolute;
+  top: calc(50% - 15px);
+  height: 30px;
+}
+.groupChild1 {
+  left: calc(50% + 42px);
+  width: 30px;
+  object-fit: cover;
+}
+.groupParent1 {
+  left: calc(50% - 48px);
+  width: 144px;
+  opacity: 0.5;
+}
+.groupDiv,
+.nickJonas {
+  position: absolute;
+  left: calc(50% - 221px);
+}
+.groupDiv {
+  top: calc(50% + 104px);
+  width: 192px;
+  height: 40px;
+}
+.nickJonas {
+  top: calc(50% + 168px);
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.arcuAtDictumSapienMollisParent {
+  position: absolute;
+  top: calc(50% - 211.5px);
+  left: calc(50% + 150.5px);
+  width: 442px;
+  height: 392px;
+}
+.groupChild2,
+.groupContainer,
+.groupParent {
+  position: absolute;
+  top: calc(50% - 356.5px);
+  left: calc(50% - 592.5px);
+  width: 713px;
+  height: 713px;
+}
+.groupContainer,
+.groupParent {
+  top: calc(50% - 302.5px);
+  width: 1185px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.groupParent {
+  top: calc(50% + 38.2px);
+  left: calc(50% - 640px);
+  height: 821px;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}

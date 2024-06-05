@@ -1,0 +1,102 @@
+.frameIcon,
+.tm {
+  position: absolute;
+}
+.tm {
+  top: calc(50% - 7.2px);
+  left: calc(50% + 49.5px);
+  font-weight: 500;
+  display: inline-block;
+  width: 9px;
+  height: 5px;
+}
+.frameIcon {
+  top: calc(50% - 17.2px);
+  left: calc(50% - 53.1px);
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+}
+.group1,
+.group2,
+.vectorIcon {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12.7px);
+  width: 65.8px;
+  height: 29.3px;
+}
+.group1,
+.group2 {
+  top: calc(50% - 17.2px);
+  left: calc(50% - 58.5px);
+  width: 106.2px;
+  height: 34.4px;
+}
+.group1 {
+  top: calc(50% - 59px);
+  left: calc(50% - 86.5px);
+  width: 117px;
+  font-size: var(--font-size-8xs-2);
+  color: var(--color-gray-200);
+}
+.helpfrybixcom {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: calc(50% - 54px);
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.frameIcon1 {
+  top: calc(50% - 12px);
+  left: calc(50% - 86px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.div,
+.frameIcon1,
+.group3 {
+  position: absolute;
+}
+.group3 {
+  top: calc(50% - 9px);
+  left: calc(50% - 86.5px);
+  width: 172px;
+  height: 26px;
+}
+.div {
+  top: calc(50% - 13px);
+  left: calc(50% - 54.5px);
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.frameIcon2,
+.group,
+.group4 {
+  position: absolute;
+  left: calc(50% - 86.5px);
+}
+.frameIcon2 {
+  top: calc(50% - 12px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.group,
+.group4 {
+  top: calc(50% + 33px);
+  width: 173px;
+  height: 26px;
+}
+.group {
+  top: calc(50% - 203px);
+  left: calc(50% - 545.5px);
+  height: 118px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}

@@ -1,0 +1,96 @@
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 99.92%;
+  top: 0;
+  right: 0.08%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-black);
+}
+.frame {
+  position: absolute;
+  top: calc(50% - 79.65px);
+  left: calc(50% - 130.15px);
+  backdrop-filter: blur(27.89px);
+  border-radius: 8.64px;
+  width: 260.3px;
+  height: 159.3px;
+}
+.div,
+.div1,
+.validThru {
+  position: absolute;
+  letter-spacing: 0.08em;
+}
+.div {
+  top: calc(50% + 22.45px);
+  left: calc(50% - 112.35px);
+  font-weight: 500;
+}
+.div1,
+.validThru {
+  top: calc(50% - 6.5px);
+  left: calc(50% + 1.65px);
+}
+.validThru {
+  top: calc(50% - 2.2px);
+  left: calc(50% - 33.45px);
+  font-size: var(--font-size-8xs-8);
+  line-height: 100%;
+}
+.group1 {
+  position: absolute;
+  top: calc(50% + 52.15px);
+  left: calc(50% - 111.85px);
+  width: 67.1px;
+  height: 13px;
+  font-size: var(--font-size-2xs-4);
+}
+.creditCardvisaTypewhite,
+.tm {
+  position: absolute;
+  top: calc(50% - 63.45px);
+  left: calc(50% + 67.55px);
+  width: 44.3px;
+  height: 14.6px;
+}
+.tm {
+  top: calc(50% - 3.45px);
+  left: calc(50% + 23.85px);
+  font-weight: 800;
+  display: inline-block;
+  width: 4.3px;
+  height: 2.7px;
+}
+.group,
+.group2,
+.groupIcon {
+  position: absolute;
+  height: 16.7px;
+}
+.groupIcon {
+  top: calc(50% - 8.35px);
+  left: calc(50% - 28.05px);
+  width: 50.7px;
+  object-fit: cover;
+}
+.group,
+.group2 {
+  top: calc(50% - 64.55px);
+  left: calc(50% - 112.35px);
+  width: 56.1px;
+  font-size: var(--font-size-11xs);
+  font-family: var(--font-plus-jakarta-sans);
+}
+.group {
+  top: calc(50% - 135.05px);
+  left: calc(50% - 363px);
+  width: 260.3px;
+  height: 159.3px;
+  text-align: left;
+  font-size: var(--font-size-smi-7);
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+}

@@ -9,7 +9,7 @@ from schemas.stu import stuEntity, stusEntity
 stu = APIRouter()
 
 
-@stu.post('/'   )
+@stu.post('/' )
 async def create_stu(stu: Stu):
     stu = dict(stu)
 

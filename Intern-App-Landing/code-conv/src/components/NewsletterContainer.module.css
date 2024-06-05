@@ -1,0 +1,77 @@
+.newsletter {
+  top: calc(50% - 90.5px);
+  font-size: var(--font-size-13xl);
+  line-height: 42px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.newsletter,
+.rectangle,
+.stayUpTo {
+  position: absolute;
+  left: calc(50% - 170px);
+}
+.stayUpTo {
+  top: calc(50% - 32.5px);
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.rectangle {
+  top: calc(50% - 40.5px);
+  box-shadow: var(--s);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  width: 340px;
+  height: 81px;
+}
+.yourEmail {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  left: calc(50% - 146px);
+  line-height: 26px;
+  font-weight: 500;
+}
+.rectangle1 {
+  position: absolute;
+  top: calc(50% - 30.5px);
+  left: calc(50% - 80px);
+  border-radius: var(--br-9xs);
+  background-color: var(--color-black);
+  width: 160px;
+  height: 61px;
+}
+.subscribe {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  left: calc(50% - 40px);
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.group {
+  position: absolute;
+  top: calc(50% - 30.5px);
+  left: calc(50% - 0px);
+  width: 160px;
+  height: 61px;
+  color: var(--color-white);
+}
+.newsletterParent,
+.rectangleParent {
+  position: absolute;
+  top: calc(50% + 9.5px);
+  left: calc(50% - 170px);
+  width: 340px;
+  height: 81px;
+  color: var(--color-gray-100);
+}
+.newsletterParent {
+  top: calc(50% - 203px);
+  left: calc(50% + 205.5px);
+  height: 181px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}

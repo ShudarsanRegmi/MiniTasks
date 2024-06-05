@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+@font-face {
+  font-family: "Clash Display";
+  src: url("/public/ClashDisplayRegular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("/public/ClashDisplayMedium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("/public/ClashDisplaySemibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("/public/ClashDisplayBold.otf");
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-clash-display: "Clash Display";
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-dm-sans: "DM Sans";
+  --font-nunito-sans: "Nunito Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-8xs-2: 4.2px;
+  --font-size-9xl: 28px;
+  --font-size-lg: 18px;
+  --font-size-29xl: 48px;
+  --font-size-11xs: 2px;
+  --font-size-8xs-8: 4.8px;
+  --font-size-2xs-4: 10.4px;
+  --font-size-smi-7: 12.7px;
+  --font-size-xl: 20px;
+  --font-size-2xs-5: 10.5px;
+  --font-size-xs-8: 11.8px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: #82848a;
+  --color-gray-200: #262626;
+  --color-tomato: #ff5555;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+  --br-4xs-6: 8.6px;
+  --br-base: 16px;
+
+  /* Effects */
+  --s: -13px 13px 104.09px rgba(161, 161, 161, 0.1);
+}
